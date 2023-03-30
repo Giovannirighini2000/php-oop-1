@@ -19,6 +19,9 @@ class movie{
         $this->ShortDescription = $_ShortDescription;
 
     }
-    
+    // // function duration
+    function getDurationString() {
+        return $this->hours . "h " . $this->minutes . "m";
+    }
 
 }

@@ -4,7 +4,7 @@
  require_once "./models/MovieDuration.php";
  require_once "./models/ShortDescription.php";
 //  istanza1
- $movie1 = new movie("Lo chiamavano Jeeg Robot","Gabriele Mainetti",new MoviesDurations("1","57"),new ShortDescription("Descrizione","In una Roma attraversata da una serie di attentati dinamitardi, il ladruncolo Enzo Ceccotti, inseguito dalla Polizia per il furto di un orologio, si getta nelle acque del Tevere entrando così in contatto con alcune sostanze radioattive, contenute in alcuni bidoni nascosti sotto la superficie. Dopo una notte in preda a febbre, nausea e brividi di freddo, si risveglia al mattino apparentemente guarito."));
+ $movie1 = new movie("Lo chiamavano Jeeg Robot","Gabriele Mainetti",new MoviesDurations("1","57"),new ShortDescription("Descrizione","Un ladruncolo di periferia, dopo essere entrato in contatto con una sostanza radioattiva, acquisisce dei superpoteri e decide di utilizzarli per combattere il crimine."));
 //  $movie1 ->nameMovies = "Lo chiamavano Jeeg Robot";
 //  $movie1 ->infoDirectorName ="Gabriele Mainetti";
  $movie1 ->type ="thriller, fantastico, noir";
@@ -16,7 +16,7 @@
 //  var_dump($duration1);
 
 // istanza2
- $movie2 = new movie("L'incredibile storia dell'Isola delle Rose","Sydney Sibilia", new MoviesDurations("2","27"),new ShortDescription("Descrizione","In una Roma attraversata da una serie di attentati dinamitardi, il ladruncolo Enzo Ceccotti, inseguito dalla Polizia per il furto di un orologio, si getta nelle acque del Tevere entrando così in contatto con alcune sostanze radioattive, contenute in alcuni bidoni nascosti sotto la superficie. Dopo una notte in preda a febbre, nausea e brividi di freddo, si risveglia al mattino apparentemente guarito."));
+ $movie2 = new movie("L'incredibile storia dell'Isola delle Rose","Sydney Sibilia", new MoviesDurations("2","27"),new ShortDescription("Descrizione","Un ingegnere idealista costruisce la propria isola al largo delle coste italiane e la proclama nazione, attirando l'attenzione del mondo. Quando il governo italiano dichiara nemico il nuovo Stato, per l'uomo cominciano i guai."));
 //  $movie2 ->nameMovies = "L'incredibile storia dell'Isola delle Rose";
 //  $movie2 ->infoDirectorName ="Sydney Sibilia";
  $movie2 ->type ="commedia, drammatico, storico";
