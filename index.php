@@ -4,22 +4,30 @@
  require_once "./models/MovieDuration.php";
  require_once "./models/ShortDescription.php";
 //  istanza1
- $movie1 = new movie("Lo chiamavano Jeeg Robot","Gabriele Mainetti");
+ $movie1 = new movie("Lo chiamavano Jeeg Robot","Gabriele Mainetti",new MoviesDurations("1","57"));
 //  $movie1 ->nameMovies = "Lo chiamavano Jeeg Robot";
 //  $movie1 ->infoDirectorName ="Gabriele Mainetti";
  $movie1 ->type ="thriller, fantastico, noir";
 
-
  var_dump($movie1);
+
+//  $duration1 = new MoviesDurations("1","57");
+
+//  var_dump($duration1);
+
 // istanza2
- $movie2 = new movie("L'incredibile storia dell'Isola delle Rose","Sydney Sibilia");
+ $movie2 = new movie("L'incredibile storia dell'Isola delle Rose","Sydney Sibilia", new MoviesDurations("2","27"));
 //  $movie2 ->nameMovies = "L'incredibile storia dell'Isola delle Rose";
 //  $movie2 ->infoDirectorName ="Sydney Sibilia";
  $movie2 ->type ="commedia, drammatico, storico";
-
-
-
  var_dump($movie2);
+
+//  $duration2 = new MoviesDurations("2","27");
+
+//  var_dump($duration2);
+
+
+ 
  
 
 
