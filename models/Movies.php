@@ -6,7 +6,7 @@ require_once  __DIR__ . "/Author.php";
 class movie{
     public string $nameMovies;
     public string $infoDirectorName;
-    public string $type;
+    public  $type = [];
     public  $MoviesDurations;
     public  $ShortDescription;
     public $MainAuthor;

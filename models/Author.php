@@ -10,6 +10,11 @@ class MainAuthor{
         $this->surname = $_surname;
         $this->age = $_age;
     }
+    // // function Fullname
+    function getFullName() {
+        return $this->name . " " . $this->surname;
+      }
+
     
 
 }
