@@ -1,5 +1,13 @@
 <?php
-
+ require_once "./models/MainAuthor.php";
+ require_once "./models/NameMovies.php";
+ require_once "./models/MovieDuration.php";
+ require_once "./models/NameMovies.php";
+ require_once "./models/ShortDescription.php";
+ 
+ $movie1 = new movie();
+ var_dump($movie1);
+ 
 
 
 
