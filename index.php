@@ -1,12 +1,25 @@
 <?php
- require_once "./models/MainAuthor.php";
- require_once "./models/NameMovies.php";
+ require_once "./models/Author.php";
+ require_once "./models/Movies.php";
  require_once "./models/MovieDuration.php";
- require_once "./models/NameMovies.php";
  require_once "./models/ShortDescription.php";
- 
- $movie1 = new movie();
+//  istanza1
+ $movie1 = new movie("Lo chiamavano Jeeg Robot","Gabriele Mainetti");
+//  $movie1 ->nameMovies = "Lo chiamavano Jeeg Robot";
+//  $movie1 ->infoDirectorName ="Gabriele Mainetti";
+ $movie1 ->type ="thriller, fantastico, noir";
+
+
  var_dump($movie1);
+// istanza2
+ $movie2 = new movie("L'incredibile storia dell'Isola delle Rose","Sydney Sibilia");
+//  $movie2 ->nameMovies = "L'incredibile storia dell'Isola delle Rose";
+//  $movie2 ->infoDirectorName ="Sydney Sibilia";
+ $movie2 ->type ="commedia, drammatico, storico";
+
+
+
+ var_dump($movie2);
  
 
 
