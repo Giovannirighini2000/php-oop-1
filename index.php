@@ -10,7 +10,8 @@
  $movie1 ->type ="thriller, fantastico, noir";
 
  var_dump($movie1);
- var_dump($movie1->MoviesDurations->hours . "h " . $movie1->MoviesDurations->minutes . "m");
+ var_dump($movie1->MoviesDurations->getDurationString());
+ var_dump($movie1->MainAuthor->getFullName());
 //  $duration1 = new MoviesDurations("1","57");
 
 //  var_dump($duration1);
@@ -21,7 +22,8 @@
 //  $movie2 ->infoDirectorName ="Sydney Sibilia";
  $movie2 ->type ="commedia, drammatico, storico";
  var_dump($movie2);
- var_dump($movie2->MoviesDurations->hours . "h " . $movie2->MoviesDurations->minutes . "m");
+ var_dump($movie2->MoviesDurations->getDurationString());
+ var_dump($movie2->MainAuthor->getFullName());
 //  $duration2 = new MoviesDurations("2","27");
 
 //  var_dump($duration2);

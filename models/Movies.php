@@ -22,9 +22,6 @@ class movie{
         $this->MainAuthor = $_MainAuthor;
 
     }
-    // // function duration
-    function getDurationString() {
-        return $this->hours . "h " . $this->minutes . "m";
-    }
-
+    
+    
 }
